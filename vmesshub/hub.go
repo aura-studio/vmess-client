@@ -258,7 +258,7 @@ func (vh *VmessHub) handleRemote(localConn net.Conn, shost, sport, rhost string)
 				return
 			}
 		case <-time.After(time.Second * time.Duration(CONN_M0AX_LIVE_TIMEOUT)):
-//			log.Printf("close conn by timer %s:%s\n", shost, sport)
+			//			log.Printf("close conn by timer %s:%s\n", shost, sport)
 			return
 		}
 

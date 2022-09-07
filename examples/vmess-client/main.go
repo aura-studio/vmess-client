@@ -2,7 +2,8 @@ package main
 
 import (
 	"log"
-	"vmesshub"
+
+	"github.com/aura-studio/vmesshub"
 )
 
 func main() {
