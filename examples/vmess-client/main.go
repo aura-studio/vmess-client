@@ -8,7 +8,7 @@ import (
 
 const (
 	uuid            = "832374fd-a2f6-4098-8dfb-0d26d9032d40"
-	socks5ListenUri = "0.0.0.0:9001"
+	socks5ListenUri = "0.0.0.0:1080"
 	remoteHost      = "23.83.224.64:21537"
 	alterId         = 0
 	securityType    = "chacha20-poly1305"
