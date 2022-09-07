@@ -6,15 +6,18 @@ import (
 	"github.com/aura-studio/vmess-client/vmesshub"
 )
 
+const (
+	uuid            = "832374fd-a2f6-4098-8dfb-0d26d9032d40"
+	socks5ListenUri = "0.0.0.0:9001"
+	remoteHost      = "23.83.224.64:21537"
+	alterId         = 0
+	securityType    = "chacha20-poly1305"
+)
+
 func main() {
 	log.SetFlags(log.LstdFlags | log.Ltime | log.Lshortfile)
-	socks5ListenUri := "127.0.0.1:9001"
 
 	log.Println("Local Socks5 :", socks5ListenUri)
-	uuid := "uuid"
-	remoteHost := "remote tcp host:port"
-	securityType := "none"
-	alterId := 64
 
 	vh, err := vmesshub.CreateVmessHub(socks5ListenUri, remoteHost, uuid, securityType, alterId)
 
