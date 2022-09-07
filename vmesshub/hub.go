@@ -11,10 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aura-studio/ext"
-
-	"github.com/aura-studio/socks5"
-	"github.com/aura-studio/vmess"
+	"github.com/aura-studio/vmess-client/ext"
+	"github.com/aura-studio/vmess-client/socks5"
+	"github.com/aura-studio/vmess-client/vmess"
 )
 
 const (

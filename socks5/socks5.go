@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/aura-studio/vmess"
+	"github.com/aura-studio/vmess-client/vmess"
 )
 
 const (

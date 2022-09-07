@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 
-	"github.com/aura-studio/vmesshub"
+	"github.com/aura-studio/vmess-client/vmesshub"
 )
 
 func main() {
 	log.SetFlags(log.LstdFlags | log.Ltime | log.Lshortfile)
-	socks5ListenUri := "127.0.0.1:9000"
+	socks5ListenUri := "127.0.0.1:9001"
 
 	log.Println("Local Socks5 :", socks5ListenUri)
 	uuid := "uuid"
