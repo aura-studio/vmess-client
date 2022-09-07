@@ -3,16 +3,18 @@ package vmesshub
 import (
 	"encoding/binary"
 	"errors"
-	"ext"
 	"fmt"
 	"io"
 	"log"
 	"net"
 	"runtime/debug"
-	"socks5"
 	"strings"
 	"time"
-	"vmess"
+
+	"github.com/aura-studio/ext"
+
+	"github.com/aura-studio/socks5"
+	"github.com/aura-studio/vmess"
 )
 
 const (

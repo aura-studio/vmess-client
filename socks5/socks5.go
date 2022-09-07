@@ -3,7 +3,8 @@ package socks5
 import (
 	"errors"
 	"net"
-	"vmess"
+
+	"github.com/aura-studio/vmess"
 )
 
 const (
@@ -33,4 +34,3 @@ func GetNewSocks5(listenUri string) (s5 *Socks5, err error) {
 
 	return
 }
-
